@@ -1377,7 +1377,8 @@ namespace Proyecto1
             if (rutaArchivo == null)
             {
                 rutaArchivo = guardarComo(texto);
-                guardarToolStripMenuItem.Name = "Guardar "+rutaArchivo;
+                
+              
             }
             else
             {
@@ -1415,7 +1416,7 @@ namespace Proyecto1
             SaveFileDialog saveFileDialog1;
             saveFileDialog1 = new SaveFileDialog();
             saveFileDialog1.Title = "Guardar proyecto de KTortle";
-            saveFileDialog1.Filter = "Archivo de KTortle (.ktl) |*.ktl";
+            saveFileDialog1.Filter = "Archivo de KTurtle (.ktl) |*.ktl";
 
             saveFileDialog1.DefaultExt = "ktl";
             saveFileDialog1.AddExtension = true;
@@ -1429,6 +1430,8 @@ namespace Proyecto1
                 StreamWriter fichero = new StreamWriter(rutaArchivo);
                 fichero.Write(texto);
                 fichero.Close();
+                this.Text = "KTurtle " + rutaArchivo;
+                guardarToolStripMenuItem.Text = "Guardar: " + rutaArchivo;
                 return rutaArchivo;
             }
             else
@@ -1444,17 +1447,22 @@ namespace Proyecto1
         {
             string texto = textoentrada1.Text;
             rutaArchivo = guardarComo(texto);
+
         }
 
         private void pruebaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog oFD = new OpenFileDialog();
             oFD.Title = "Abrir proyecto de KTortle";
-            oFD.Filter = "Proyecto de KTortle (*.ktl)|*.ktl" +
+            oFD.Filter = "Proyecto de KTurtle (*.ktl)|*.ktl" +
             "|Todos los archivos (*.*)|*.*";
+            
             if (oFD.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                textoentrada1.Text = System.IO.File.ReadAllText(oFD.FileName);
+                rutaArchivo = oFD.FileName;
+                textoentrada1.Text = System.IO.File.ReadAllText(rutaArchivo);
+                this.Text = "KTurtle "+rutaArchivo;
+                guardarToolStripMenuItem.Text = "Guardar: " + rutaArchivo;
             }
         }
 
