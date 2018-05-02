@@ -19,3 +19,12 @@ C:\Users\Josue\Desktop\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyect
 C:\Users\Josue\Desktop\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.Form1.resources
 C:\Users\Josue\Desktop\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.Properties.Resources.resources
 C:\Users\Josue\Desktop\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.csproj.GenerateResource.Cache
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\bin\Debug\Proyecto1.exe.config
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.exe
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.pdb
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\bin\Debug\Proyecto1.exe
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\bin\Debug\Proyecto1.pdb
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.Form1.resources
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.Properties.Resources.resources
+C:\Users\Josue\Documents\Proyecto1-LFP-\[LFP]Proyecto1_201318631\Proyecto1\Proyecto1\obj\Debug\Proyecto1.csproj.GenerateResource.Cache
